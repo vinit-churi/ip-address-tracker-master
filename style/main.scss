@@ -1,0 +1,46 @@
+@use "./reset";
+@use "./root";
+
+body {
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: var(--input-text-weight);
+}
+
+h1 {
+  color: hsl(255, 255, 255);
+  width: 80%;
+  margin: 0 auto;
+}
+
+h4 {
+  color: var(--primary-light);
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+}
+
+header {
+  background-image: var(--background-img-url);
+  height: 30vh;
+
+  .form-ip-input {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    .ip-address-input {
+      width: 100%;
+    }
+    #ip-submit-button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50px;
+    }
+  }
+
+  .fetchedInfo {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
