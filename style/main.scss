@@ -27,6 +27,11 @@ h1 {
 h2 {
   font-size: 1.2rem;
   // letter-spacing: 1px;
+  max-width: 325px;
+  // white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  // text-overflow: ellipsis;
 }
 
 h4 {
@@ -48,7 +53,7 @@ header {
   }
 
   .form-ip-input {
-    width: 80%;
+    width: 90%;
     max-width: 444px;
     margin: 0 auto;
     position: relative;
@@ -85,7 +90,7 @@ header {
     border-radius: 8px;
     text-align: center;
     background-color: white;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 20px;
     z-index: 200;
