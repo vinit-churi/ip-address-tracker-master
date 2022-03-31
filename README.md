@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/vinit-churi/ip-address-tracker-master)
-- Live Site URL: [Add live site URL here](https://vinit-churi.github.io/ip-address-tracker-master/)
+- Solution URL: [solution URL](https://github.com/vinit-churi/ip-address-tracker-master)
+- Live Site URL: [live site](https://vinit-churi.github.io/ip-address-tracker-master/)
 
 ## My process
 
